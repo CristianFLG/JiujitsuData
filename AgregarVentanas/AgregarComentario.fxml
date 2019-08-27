@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="213.0" prefWidth="302.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AgregarVentanas.AgregarComentarioControlador">
+   <children>
+      <Pane prefHeight="218.0" prefWidth="301.0">
+         <children>
+            <Button fx:id="btnAgregar" layoutX="121.0" layoutY="172.0" mnemonicParsing="false" onAction="#AgregarComentbtn" text="Agregar" />
+            <TextArea fx:id="TxtArea" layoutX="51.0" layoutY="33.0" prefHeight="110.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

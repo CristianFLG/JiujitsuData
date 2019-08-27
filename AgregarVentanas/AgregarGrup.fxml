@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="359.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AgregarVentanas.AgregarGrupControlador">
+   <children>
+      <TableView fx:id="TablaGrupo" editable="true" layoutX="104.0" layoutY="22.0" prefHeight="200.0" prefWidth="159.0">
+        <columns>
+          <TableColumn fx:id="grupsColumn" prefWidth="158.0" text="Grupos" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnAgregarGrup" layoutX="84.0" layoutY="271.0" mnemonicParsing="false" onAction="#AgregarGrupo" text="Agregar" />
+      <TextField fx:id="TxtAddGrupo" layoutX="105.0" layoutY="235.0" prefHeight="25.0" prefWidth="159.0" promptText="Grupo" />
+      <Button fx:id="btnModificarGrup" layoutX="151.0" layoutY="271.0" mnemonicParsing="false" onAction="#ModificarRegistro" text="Modificar" />
+      <Button fx:id="btnEliminarGrup" layoutX="224.0" layoutY="271.0" mnemonicParsing="false" onAction="#Eliminar" text="Eliminar" />
+      <Label fx:id="LblOldValue" layoutX="33.0" layoutY="239.0" opacity="0.0" text="Label" />
+   </children>
+</AnchorPane>
